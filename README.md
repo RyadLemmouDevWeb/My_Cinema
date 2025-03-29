@@ -1,29 +1,54 @@
-My Cinema
-Description
-My Cinema est un projet de gestion de cinéma, réalisé en PHP avec une base de données SQL. L'objectif était de créer un site web permettant de gérer les films, les clients et les séances dans un cinéma. Ce projet inclut la gestion de la base de données pour afficher les films à l'affiche, gérer les réservations des clients et afficher les horaires des séances.
+PHP
+MySQL
+HTML5
+CSS3
+JavaScript
+My Cinema est un projet de gestion de cinéma, réalisé en PHP avec une base de données SQL. L'objectif était de créer un site web permettant de gérer les films, les clients et les séances dans un cinéma.
 
-Fonctionnalités
-Gestion des films : Afficher les films actuellement à l'affiche avec leurs détails (titre, description, durée, genre, etc.).
+Fonctionnalités principales
+Gestion des films : Affichage des films à l'affiche avec leurs détails (titre, description, durée, genre, etc.)
 
-Gestion des séances : Afficher les horaires des séances pour chaque film, et permettre aux clients de réserver leurs places.
+Gestion des séances : Affichage des horaires des séances pour chaque film
 
-Base de données : Une base de données SQL stocke les informations sur les films, les clients et les séances, permettant une gestion dynamique et centralisée.
+Réservations : Système permettant aux clients de réserver leurs places
+
+Base de données : Stockage centralisé des informations sur les films, clients et séances
 
 Technologies utilisées
-PHP : Langage de programmation principal pour la logique du site.
+PHP : Langage principal pour la logique backend
 
-MySQL : Base de données relationnelle pour stocker les films, les clients, et les séances.
+MySQL : Base de données relationnelle
 
-HTML / CSS : Structuration et mise en forme des pages.
+HTML/CSS : Structure et style des pages
 
-JavaScript : Pour certaines interactions côté client.
+JavaScript : Interactions côté client
 
-Étapes d'installation
-Clonez ce dépôt ou téléchargez les fichiers source.
+Installation et utilisation
+Clonez le dépôt :
 
 bash
+Copy
 git clone https://github.com/votre-utilisateur/my-cinema.git
+cd my-cinema
+Configurez votre base de données MySQL (importez le fichier SQL fourni)
+
+Lancez le serveur PHP intégré :
+
+bash
+Copy
+php -S localhost:3000
+Ouvrez votre navigateur à l'adresse :
+
+Copy
+http://localhost:3000
+Structure de la base de données
+La base de données contient trois tables principales :
+
+films : Stocke les informations sur les films
+
+clients : Gère les informations des utilisateurs
+
+seances : Contient les horaires des séances et les réservations
 
 
-Ouvrez votre navigateur et accédez à http://localhost:3000.
 
