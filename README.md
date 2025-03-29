@@ -28,7 +28,7 @@ My Cinema est un système de gestion de cinéma développé en PHP avec une base
 1. Cloner le dépôt :
 
 ```bash
-git clone https://github.com/votre-utilisateur/my-cinema.git
+git clone git@github.com:RyadLemmouDevWeb/My_Cinema.git
 cd my-cinema
 ```
 ```bash
