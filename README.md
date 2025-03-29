@@ -10,17 +10,18 @@ My Cinema est un système de gestion de cinéma développé en PHP avec une base
 
 ## Fonctionnalités
 
-- 📽️ Gestion des films (ajout, modification, suppression)
-- 🕒 Gestion des séances et horaires
-- 🎫 Système de réservation
-- 👥 Gestion des clients
-- 📊 Tableau de bord administratif
+-  Gestion des films (ajout, modification, suppression)
+-  Gestion des séances et horaires
+-  Gestion des clients
+-  Tableau de bord administratif
 
 ## Prérequis
 
-- PHP 7.4 ou supérieur
-- MySQL 5.7 ou supérieur
-- Serveur web (Apache/Nginx) ou PHP CLI
+- PHP 
+- Javascript
+- CSS
+- MySQL 
+- Serveur web 
 
 ## Installation
 
@@ -29,7 +30,11 @@ My Cinema est un système de gestion de cinéma développé en PHP avec une base
 ```bash
 git clone https://github.com/votre-utilisateur/my-cinema.git
 cd my-cinema
+```
+```bash
 php -S localhost:3000
+```
+```bash
 http://localhost:3000
-
+```
 
